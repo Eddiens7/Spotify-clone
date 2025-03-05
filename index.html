@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify – Web player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <div class="sidebar">
+        <nav class="sidebar_navigation"> <!--Menu-->
+            <div>
+                <div class="logo">
+                    <a href="">
+                        <img src="./assets/logo-spotify.png" alt="Logo spotify">
+                    </a>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-house"></i> 
+                                <span>Início</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <span>Buscar</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar_biblioteca">
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <div>
+                                <i class="fa-solid fa-music"></i>
+                                <span>Sua biblioteca</span>
+                            </div>
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="criar-playlist">
+                <h2>Crie sua primeira playlist</h2>
+                <p>É fácil, vamos te ajudar</p>
+                <input type="button" value="Criar playlist">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

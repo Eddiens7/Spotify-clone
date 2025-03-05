@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    background-color: #000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.sidebar ul{
+    margin: 10px;
+    list-style: none;
+}
+
+.sidebar li{
+    padding: 10px 0;
+}
+
+.sidebar a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+a i{
+    margin-right: 10px;
+}
+
+.sidebar_navigation, .sidebar_biblioteca{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.sidebar_biblioteca{
+    padding-top: 0;
+}
+
+.sidebar_biblioteca a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.criar-playlist{
+    background-color: #1a1a1a;
+    width: 250px;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+}
+
+.criar-playlist h2{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.criar-playlist p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="button"]{
+    background-color: white;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

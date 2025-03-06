@@ -12,51 +12,56 @@
 
 </head>
 <body>
-    <div class="sidebar">
-        <nav class="sidebar_navigation"> <!--Menu-->
-            <div>
-                <div class="logo">
-                    <a href="">
-                        <img src="./assets/logo-spotify.png" alt="Logo spotify">
-                    </a>
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <i class="fa-solid fa-house"></i> 
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="sidebar"> <!--Barra de navegação lateral-->
+        <nav class="sidebar_navigation"> <!--Menu principal-->
+            <div class="logo"> <!--Container da logo-->
+                <a href="">
+                    <img src="./assets/logo-spotify.png" alt="Logo spotify">
+                </a>
             </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-house"></i> 
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <div class="sidebar_biblioteca">
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
+        <div class="sidebar_biblioteca"> <!--Menu secundário-->
+            <ul>
+                <li>
+                    <a href="">
+                        <div class="biblioteca">
                             <div>
                                 <i class="fa-solid fa-music"></i>
                                 <span>Sua biblioteca</span>
                             </div>
                             <i class="fa-solid fa-plus"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
             <div class="criar-playlist">
                 <h2>Crie sua primeira playlist</h2>
                 <p>É fácil, vamos te ajudar</p>
                 <input type="button" value="Criar playlist">
             </div>
+           <div class="cookies">
+                <a href="">Cookies</a>
+           </div> 
+           <div class="language">
+                <button>
+                    <i class="fa-solid fa-globe"></i>
+                    <span>Português do Brasil</span>
+                </button>
+           </div>
         </div>
     </div>
 </body>

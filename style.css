@@ -56,11 +56,21 @@ a i{
 }
 
 .sidebar_biblioteca{
-    padding-top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 400px;
+    margin-top: 10px;
 }
 
 .sidebar_biblioteca a{
     display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca{
+    display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -90,4 +100,27 @@ input[type="button"]{
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.cookies{
+    margin: 20px 0;
+}
+
+.cookies a{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.language button{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.language span{
+    font-weight: bold;
+
 }
